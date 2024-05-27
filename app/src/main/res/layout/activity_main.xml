@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_shade_1"
+    tools:context=".MainActivity">
+
+     <ImageView
+         android:layout_width="200dp"
+         android:layout_height="200dp"
+         android:layout_centerHorizontal="true"
+         android:src="@drawable/eye_scan"
+         android:layout_marginTop="70dp"
+         android:id="@+id/idIVLogo"
+         />
+
+    <TextView
+        android:id="@+id/idIVHead"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/idIVLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-276dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:text="Welcome to Text Detcetor from image "
+        android:textAlignment="center"
+        android:textColor="@color/yellow"
+        android:textSize="18sp"
+
+        android:textStyle="bold" />
+
+    <Button
+
+        android:id="@+id/idBtncapture"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idIVHead"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="-302dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button_back"
+        android:text="Capture Image"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/yellow" />
+
+
+</RelativeLayout>
